@@ -1,0 +1,882 @@
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Mirrored from a2oj.com/submissions?ID=40417 by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 15 Nov 2019 01:45:22 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=ISO-8859-1" /><!-- /Added by HTTrack -->
+<head>
+
+<!-- START TABLE SORTER CODE -->
+<link rel="stylesheet" href="style.css" type="text/css" id="" media="print, projection, screen" />
+<script type="text/javascript" src="jquery-latest.js"></script>
+<script type="text/javascript" src="jquery.tablesorter.js"></script>
+	
+<script type="text/javascript" id="js">
+$(document).ready(function() {
+	$.tablesorter.defaults.sortList = [[0,0]];
+	$.tablesorter.defaults.textExtraction = ['complex'];
+	$("table").tablesorter();
+});
+</script>
+<!-- END TABLE SORTER CODE -->
+
+<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>A2 Online Judge</title>
+
+<meta name="description" content="A2 Online Judge (or Virtual Online Contests) is an online judge with hundreds of problems and it helps you to create, run and participate in virtual contests using problems from the following online judges: A2 Online Judge, Live Archive, Codeforces, Timus, SPOJ, TJU, SGU, PKU, ZOJ, URI. It also helps you to manage and track your programming comepetions training for you and your friends. It helps for ICPC ACM and IOI training also.">
+<meta name="keywords" content="ahmed aly,ahmed aly tools,voc,virtual online contests,programming,c++,java,contest,contests,competition,competitions,programming contest,programming contests,programming compitition,programming compititions,cf,codeforces,live archive,uva,spoj,tju,sgu,pku,timus,zoj,uri,programming tools,a2oj,a2 online judge">
+<meta name="author" content="Ahmed Aly">
+<link href="default.css" rel="stylesheet" type="text/css" />
+
+		<link rel="stylesheet" href="css/nav.css" />
+		<!--[if IE]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+<!-- START TRACKING CODE -->
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push( [ '_setAccount', 'UA-16947566-3' ]);
+	_gaq.push( [ '_trackPageview' ]);
+
+	( function() {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+				: 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+<!-- END TRACKING CODE -->
+
+
+
+
+
+
+
+<script type="text/javascript">
+function toggle() {
+	if(document.getElementById("selection2") && document.getElementById("selection2").checked) {
+		if(document.getElementById("selection") && document.getElementById("selection").checked)
+			window.location = 'submissions17aa?ID=40417&amp;non=true&amp;My=true';
+		else
+			window.location = 'submissionsdb7a?ID=40417&amp;non=true';
+	} else {
+		if(document.getElementById("selection") && document.getElementById("selection").checked)
+			window.location = 'submissions6b62?ID=40417&amp;My=true';
+		else
+			window.location = 'submissions9a00.html?ID=40417';
+	}
+}
+</script>
+
+
+<style type="text/css">
+<!--
+div.scroll {
+height: 100%;
+width: 1000px;
+overflow: auto;
+}
+-->
+</style> 
+
+</head>
+<body class="no-js">
+    	<script>
+			var el = document.getElementsByTagName("body")[0];
+			el.className = "";
+		</script>
+        <noscript>
+        	<!--[if IE]>
+            	<link rel="stylesheet" href="css/ie.css">
+            <![endif]-->
+        </noscript>
+        
+
+<center>
+<table width="100%">
+<tr>
+<td>
+        
+
+
+<div id="wrapper"><!-- start header -->
+
+<div id="logo">
+<table width="100%">
+<tr>
+<td style="vertical-align: bottom;"><a href="index.html"><img src="logo.png"></a></td>
+<td>
+<h1 style="padding-top: 11px;">A<sup>2</sup> Online Judge</h1>
+<h2 class="author">&raquo;&nbsp;&nbsp;&nbsp;&nbsp; by <a href="https://www.facebook.com/ahmed.aly.tc" target="_blank" style="text-decoration: none;">Ahmed Aly</a></h2>
+<br/>
+<h3>Sponsored by <b><a href="https://www.facebook.com/elcoachacademy/" target="_blank" style="text-decoration: none;">Coach Academy</a></b> & <b><a href="https://www.facebook.com/AfricaArabCPC/" target="_blank" style="text-decoration: none;">ACPC</a></b></h3>
+</td>
+<td style="text-align: right; padding-top: 27px;">
+<iframe src="https://www.facebook.com/plugins/like.php?show_faces=false&amp;href=https://www.facebook.com/A2OnlineJudge"
+	scrolling="no" frameborder="0"
+	style="border:none; height:45px"></iframe>
+</td>
+</tr>
+</table>
+</div>
+
+<div id="header3"><div align="right"><a href="signin53d4?url=%2Fsubmissions%3FID%3D40417" style="font-size: 15px;">Sign In</a> - <a href="signup.html" style="font-size: 15px;">Sign Up</a></div></div>
+
+
+<div id="header2">
+<div id="menu2">
+
+        <nav id="topNav">
+          <ul>
+<li><a href="index.html">Contests</a></li><li><a href="ladders.html"><font color="red">Ladders</font></a></li><li><a href="ps.html">Problems</a></li><li><a href="status.html">Status</a></li><li><a href="categories.html">Categories</a></li><li><a href="groups.html">Groups</a></li><li><a href="javascript:void();">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;More&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><ul><li><center><a href="addcode.html">Source Codes</a></center></li><li><center><a href="finder.html">Problems Finder</a></center></li><li><center><a href="users.html">Users</a></center></li><li><center><a href="teams.html">Teams</a></center></li><li><center><a href="cumulative.html">Cumulative Rank</a></center></li></ul></li><li class="last"><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+        
+        
+        <script src="js/modernizr.js"></script>
+		<script>
+			(function($){
+				
+				//cache nav
+				var nav = $("#topNav");
+				
+				//add indicator and hovers to submenu parents
+				nav.find("li").each(function() {
+					if ($(this).find("ul").length > 0) {
+						$("<span>").text("^").appendTo($(this).children(":first"));
+
+						//show subnav on hover
+						$(this).mouseenter(function() {
+							$(this).find("ul").stop(true, true).slideDown();
+						});
+						
+						//hide submenus on exit
+						$(this).mouseleave(function() {
+							$(this).find("ul").stop(true, true).slideUp();
+						});
+					}
+				});
+			})(jQuery);
+		</script>
+
+
+</div>
+</div>
+<!-- end header --></div>
+<!-- start page -->
+</td>
+</tr>
+
+
+<tr>
+
+<td style="vertical-align: top;">
+<center>
+<table>
+<tr style="max-height: 0px; padding: 0px;">
+<td style="max-height: 0px; padding: 0px; min-width: 165px;"></td>
+<td style="max-height: 0px; padding: 0px; min-width: 1060px;"></td>
+<td style="max-height: 0px; padding: 0px; min-width: 165px;"></td>
+</tr>
+<tr>
+<td style="padding: 0px; vertical-align: top;">
+<div id="leftAd">
+
+
+</div>
+</td>
+<td style="padding: 0px; vertical-align: top;">
+<div id="page">
+
+<font size="3">
+<center>
+
+
+
+
+
+<font size=4>
+<b>
+Submissions for: <a href="contest9a00.html?ID=40417">40417 - FSCPT_F19_Intro
+</a>
+ (<b>7 days, 9 hrs and 30 mins</b>)
+
+<br/>
+<br/>
+<a href="standings9a00.html?ID=40417">Standings</a> - <a href="submissions9a00.html?ID=40417">Submissions</a>
+ - <a href="contest9a00.html?ID=40417">Problems</a> - <a href="registrants9a00.html?ID=40417">Registrants</a>
+ - <a href="signinf521.html?ID=40417">Register</a>
+
+</b>
+</font>
+
+
+
+<p style="border-bottom: 1px solid #5C5C5C;
+  padding-bottom: 6px;
+  margin-bottom: 1em;">
+</p>
+
+
+<table cellspacing="1" class="tablesorter" style="text-align: center;">
+<thead>
+<tr>
+<th></th>
+<th>ID</th>
+
+<th>Judge ID</th>
+<th>Contestant</th>
+
+<th>Problem</th>
+<th>Online Judge</th>
+
+<th>Result</th>
+<th>Language</th>
+
+<th>Time</th>
+
+</tr>
+</thead>
+<tbody>
+
+<tr class="acc">
+<td>1</td>
+<td>1963674</td>
+<td>64766350</td>
+<td><a href="profilee9f9?Username=z.e.a.l">z.e.a.l</a></td>
+<td><a href="http://codeforces.com/problemset/problem/50/A" target="_blank">P5 - Domino piling</a></td>
+<td>Codeforces</td>
+<td>Accepted</td>
+<td>GNU C++17</td>
+<td>2019-11-12 20:50:22</td>
+</tr>
+<tr class="acc">
+<td>2</td>
+<td>1963656</td>
+<td>64765443</td>
+<td><a href="profilee9f9?Username=z.e.a.l">z.e.a.l</a></td>
+<td><a href="http://codeforces.com/problemset/problem/4/A" target="_blank">P4 - Watermelon</a></td>
+<td>Codeforces</td>
+<td>Accepted</td>
+<td>GNU C++17</td>
+<td>2019-11-12 20:29:59</td>
+</tr>
+<tr class="acc">
+<td>3</td>
+<td>1963083</td>
+<td>64669008</td>
+<td><a href="profilea594?Username=Badralz">Badralz</a></td>
+<td><a href="http://codeforces.com/problemset/problem/1/A" target="_blank">P13 - Theatre Square</a></td>
+<td>Codeforces</td>
+<td>Accepted</td>
+<td>GNU C++17</td>
+<td>2019-11-11 04:37:33</td>
+</tr>
+<tr class="acc">
+<td>4</td>
+<td>1963084</td>
+<td>64668998</td>
+<td><a href="profilea594?Username=Badralz">Badralz</a></td>
+<td><a href="http://codeforces.com/problemset/problem/50/A" target="_blank">P5 - Domino piling</a></td>
+<td>Codeforces</td>
+<td>Accepted</td>
+<td>GNU C++17</td>
+<td>2019-11-11 04:37:16</td>
+</tr>
+<tr class="acc">
+<td>5</td>
+<td>1963085</td>
+<td>64668987</td>
+<td><a href="profilea594?Username=Badralz">Badralz</a></td>
+<td><a href="http://codeforces.com/problemset/problem/4/A" target="_blank">P4 - Watermelon</a></td>
+<td>Codeforces</td>
+<td>Accepted</td>
+<td>GNU C++17</td>
+<td>2019-11-11 04:36:44</td>
+</tr>
+<tr class="acc">
+<td>6</td>
+<td>1963082</td>
+<td>64668918</td>
+<td><a href="profilea594?Username=Badralz">Badralz</a></td>
+<td><a href="http://codeforces.com/problemset/problem/4/A" target="_blank">P4 - Watermelon</a></td>
+<td>Codeforces</td>
+<td>Accepted</td>
+<td>GNU C++17</td>
+<td>2019-11-11 04:33:41</td>
+</tr>
+<tr class="acc">
+<td>7</td>
+<td>1962251</td>
+<td>64511405</td>
+<td><a href="profile0ee8?Username=mhiceiuk">mhiceiuk</a></td>
+<td><a href="http://codeforces.com/problemset/problem/4/A" target="_blank">P4 - Watermelon</a></td>
+<td>Codeforces</td>
+<td>Accepted</td>
+<td>GNU C++11</td>
+<td>2019-11-08 08:57:13</td>
+</tr>
+<tr class="acc">
+<td>8</td>
+<td>1961410</td>
+<td>64062910</td>
+<td><a href="profile34a9?Username=fsociety4499">fsociety4499</a></td>
+<td><a href="http://codeforces.com/problemset/problem/4/A" target="_blank">P4 - Watermelon</a></td>
+<td>Codeforces</td>
+<td>Accepted</td>
+<td>GNU C11</td>
+<td>2019-11-02 04:40:44</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>1961411</td>
+<td>64062808</td>
+<td><a href="profile34a9?Username=fsociety4499">fsociety4499</a></td>
+<td><a href="http://codeforces.com/problemset/problem/4/A" target="_blank">P4 - Watermelon</a></td>
+<td>Codeforces</td>
+<td>WRONG_ANSWER</td>
+<td>GNU C11</td>
+<td>2019-11-02 04:38:26</td>
+</tr>
+<tr>
+<td>10</td>
+<td>1961412</td>
+<td>64062791</td>
+<td><a href="profile34a9?Username=fsociety4499">fsociety4499</a></td>
+<td><a href="http://codeforces.com/problemset/problem/4/A" target="_blank">P4 - Watermelon</a></td>
+<td>Codeforces</td>
+<td>WRONG_ANSWER</td>
+<td>GNU C11</td>
+<td>2019-11-02 04:37:57</td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td>1961413</td>
+<td>64062709</td>
+<td><a href="profile34a9?Username=fsociety4499">fsociety4499</a></td>
+<td><a href="http://codeforces.com/problemset/problem/4/A" target="_blank">P4 - Watermelon</a></td>
+<td>Codeforces</td>
+<td>WRONG_ANSWER</td>
+<td>GNU C11</td>
+<td>2019-11-02 04:35:45</td>
+</tr>
+<tr>
+<td>12</td>
+<td>1961414</td>
+<td>64062612</td>
+<td><a href="profile34a9?Username=fsociety4499">fsociety4499</a></td>
+<td><a href="http://codeforces.com/problemset/problem/4/A" target="_blank">P4 - Watermelon</a></td>
+<td>Codeforces</td>
+<td>COMPILATION_ERROR</td>
+<td>GNU C11</td>
+<td>2019-11-02 04:33:42</td>
+</tr>
+<tr class="acc">
+<td>13</td>
+<td>1961372</td>
+<td>63979157</td>
+<td><a href="profileeae9?Username=snehajain081">snehajain081</a></td>
+<td><a href="http://codeforces.com/problemset/problem/50/A" target="_blank">P5 - Domino piling</a></td>
+<td>Codeforces</td>
+<td>Accepted</td>
+<td>Python 3</td>
+<td>2019-11-01 09:37:04</td>
+</tr>
+<tr class="acc">
+<td>14</td>
+<td>1960854</td>
+<td>63879810</td>
+<td><a href="profile872b?Username=Ashgr">Ashgr</a></td>
+<td><a href="http://codeforces.com/problemset/problem/4/A" target="_blank">P4 - Watermelon</a></td>
+<td>Codeforces</td>
+<td>Accepted</td>
+<td>Python 3</td>
+<td>2019-10-30 20:20:27</td>
+</tr>
+<tr class="acc">
+<td>15</td>
+<td>1960852</td>
+<td>63879497</td>
+<td><a href="profile872b?Username=Ashgr">Ashgr</a></td>
+<td><a href="http://codeforces.com/problemset/problem/4/A" target="_blank">P4 - Watermelon</a></td>
+<td>Codeforces</td>
+<td>Accepted</td>
+<td>Python 3</td>
+<td>2019-10-30 20:12:54</td>
+</tr>
+<tr>
+<td>16</td>
+<td>1960851</td>
+<td>63879381</td>
+<td><a href="profile872b?Username=Ashgr">Ashgr</a></td>
+<td><a href="http://codeforces.com/problemset/problem/4/A" target="_blank">P4 - Watermelon</a></td>
+<td>Codeforces</td>
+<td>WRONG_ANSWER</td>
+<td>Python 3</td>
+<td>2019-10-30 20:10:11</td>
+</tr>
+<tr class="acc">
+<td>17</td>
+<td>1960495</td>
+<td>63662168</td>
+<td><a href="profile2440?Username=mohanjnv1">mohanjnv1</a></td>
+<td><a href="http://codeforces.com/problemset/problem/1/A" target="_blank">P13 - Theatre Square</a></td>
+<td>Codeforces</td>
+<td>Accepted</td>
+<td>GNU C++14</td>
+<td>2019-10-28 14:11:33</td>
+</tr>
+<tr class="acc">
+<td>18</td>
+<td>1960483</td>
+<td>63660751</td>
+<td><a href="profile2440?Username=mohanjnv1">mohanjnv1</a></td>
+<td><a href="http://codeforces.com/problemset/problem/50/A" target="_blank">P5 - Domino piling</a></td>
+<td>Codeforces</td>
+<td>Accepted</td>
+<td>GNU C++14</td>
+<td>2019-10-28 13:59:13</td>
+</tr>
+<tr class="acc">
+<td>19</td>
+<td>1960413</td>
+<td>63625236</td>
+<td><a href="profile2440?Username=mohanjnv1">mohanjnv1</a></td>
+<td><a href="http://codeforces.com/problemset/problem/4/A" target="_blank">P4 - Watermelon</a></td>
+<td>Codeforces</td>
+<td>Accepted</td>
+<td>GNU C++14</td>
+<td>2019-10-28 03:10:35</td>
+</tr>
+<tr>
+<td>20</td>
+<td>1960412</td>
+<td>63625198</td>
+<td><a href="profile2440?Username=mohanjnv1">mohanjnv1</a></td>
+<td><a href="http://codeforces.com/problemset/problem/4/A" target="_blank">P4 - Watermelon</a></td>
+<td>Codeforces</td>
+<td>WRONG_ANSWER</td>
+<td>GNU C++14</td>
+<td>2019-10-28 03:07:56</td>
+</tr>
+<tr class="acc">
+<td>21</td>
+<td>1960292</td>
+<td>63608334</td>
+<td><a href="profile83b2.html?Username=Joggleston">Joggleston</a></td>
+<td><a href="http://codeforces.com/problemset/problem/1/A" target="_blank">P13 - Theatre Square</a></td>
+<td>Codeforces</td>
+<td>Accepted</td>
+<td>Python 3</td>
+<td>2019-10-27 16:05:37</td>
+</tr>
+<tr>
+<td>22</td>
+<td>1960290</td>
+<td>63608240</td>
+<td><a href="profile83b2.html?Username=Joggleston">Joggleston</a></td>
+<td><a href="http://codeforces.com/problemset/problem/1/A" target="_blank">P13 - Theatre Square</a></td>
+<td>Codeforces</td>
+<td>WRONG_ANSWER</td>
+<td>Python 3</td>
+<td>2019-10-27 16:03:34</td>
+</tr>
+<tr class="odd">
+<td>23</td>
+<td>1960220</td>
+<td>63524851</td>
+<td><a href="profile83b2.html?Username=Joggleston">Joggleston</a></td>
+<td><a href="http://codeforces.com/problemset/problem/1/A" target="_blank">P13 - Theatre Square</a></td>
+<td>Codeforces</td>
+<td>TIME_LIMIT_EXCEEDED</td>
+<td>Python 3</td>
+<td>2019-10-27 04:56:55</td>
+</tr>
+<tr>
+<td>24</td>
+<td>1960219</td>
+<td>63524751</td>
+<td><a href="profile83b2.html?Username=Joggleston">Joggleston</a></td>
+<td><a href="http://codeforces.com/problemset/problem/1/A" target="_blank">P13 - Theatre Square</a></td>
+<td>Codeforces</td>
+<td>WRONG_ANSWER</td>
+<td>Python 3</td>
+<td>2019-10-27 04:55:13</td>
+</tr>
+<tr class="odd">
+<td>25</td>
+<td>1960041</td>
+<td>63410435</td>
+<td><a href="profile83b2.html?Username=Joggleston">Joggleston</a></td>
+<td><a href="http://codeforces.com/problemset/problem/1/A" target="_blank">P13 - Theatre Square</a></td>
+<td>Codeforces</td>
+<td>WRONG_ANSWER</td>
+<td>Python 3</td>
+<td>2019-10-25 23:36:14</td>
+</tr>
+<tr>
+<td>26</td>
+<td>1960037</td>
+<td>63410200</td>
+<td><a href="profile83b2.html?Username=Joggleston">Joggleston</a></td>
+<td><a href="http://codeforces.com/problemset/problem/1/A" target="_blank">P13 - Theatre Square</a></td>
+<td>Codeforces</td>
+<td>WRONG_ANSWER</td>
+<td>Python 3</td>
+<td>2019-10-25 23:19:15</td>
+</tr>
+<tr class="acc">
+<td>27</td>
+<td>1959665</td>
+<td>63273625</td>
+<td><a href="profileeae9?Username=snehajain081">snehajain081</a></td>
+<td><a href="http://codeforces.com/problemset/problem/4/A" target="_blank">P4 - Watermelon</a></td>
+<td>Codeforces</td>
+<td>Accepted</td>
+<td>Python 3</td>
+<td>2019-10-24 05:44:15</td>
+</tr>
+<tr class="acc">
+<td>28</td>
+<td>1945401</td>
+<td>61295371</td>
+<td><a href="profile8730.html?Username=nbonner5">nbonner5</a></td>
+<td><a href="http://codeforces.com/problemset/problem/1/A" target="_blank">P13 - Theatre Square</a></td>
+<td>Codeforces</td>
+<td>Accepted</td>
+<td>Python 3</td>
+<td>2019-09-26 00:31:37</td>
+</tr>
+<tr class="acc">
+<td>29</td>
+<td>1945164</td>
+<td>61276946</td>
+<td><a href="profile4c4e.html?Username=maxb00">maxb00</a></td>
+<td><a href="http://codeforces.com/problemset/problem/1/A" target="_blank">P13 - Theatre Square</a></td>
+<td>Codeforces</td>
+<td>Accepted</td>
+<td>Python 3</td>
+<td>2019-09-25 15:46:05</td>
+</tr>
+<tr>
+<td>30</td>
+<td>1945149</td>
+<td>61276529</td>
+<td><a href="profile4c4e.html?Username=maxb00">maxb00</a></td>
+<td><a href="http://codeforces.com/problemset/problem/1/A" target="_blank">P13 - Theatre Square</a></td>
+<td>Codeforces</td>
+<td>WRONG_ANSWER</td>
+<td>Python 3</td>
+<td>2019-09-25 15:37:51</td>
+</tr>
+<tr class="odd">
+<td>31</td>
+<td>1945096</td>
+<td>61274948</td>
+<td><a href="profile4a47?Username=christopherhaynes33">christopherhaynes33</a></td>
+<td><a href="http://codeforces.com/problemset/problem/1/A" target="_blank">P13 - Theatre Square</a></td>
+<td>Codeforces</td>
+<td>WRONG_ANSWER</td>
+<td>Python 3</td>
+<td>2019-09-25 15:08:01</td>
+</tr>
+<tr class="acc">
+<td>32</td>
+<td>1945097</td>
+<td>61274897</td>
+<td><a href="profile8730.html?Username=nbonner5">nbonner5</a></td>
+<td><a href="http://codeforces.com/problemset/problem/50/A" target="_blank">P5 - Domino piling</a></td>
+<td>Codeforces</td>
+<td>Accepted</td>
+<td>Python 3</td>
+<td>2019-09-25 15:07:13</td>
+</tr>
+<tr class="odd">
+<td>33</td>
+<td>1945091</td>
+<td>61274492</td>
+<td><a href="profile4a47?Username=christopherhaynes33">christopherhaynes33</a></td>
+<td><a href="http://codeforces.com/problemset/problem/1/A" target="_blank">P13 - Theatre Square</a></td>
+<td>Codeforces</td>
+<td>WRONG_ANSWER</td>
+<td>Python 3</td>
+<td>2019-09-25 15:00:09</td>
+</tr>
+<tr class="acc">
+<td>34</td>
+<td>1944492</td>
+<td>61088186</td>
+<td><a href="profile8730.html?Username=nbonner5">nbonner5</a></td>
+<td><a href="http://codeforces.com/problemset/problem/4/A" target="_blank">P4 - Watermelon</a></td>
+<td>Codeforces</td>
+<td>Accepted</td>
+<td>Python 3</td>
+<td>2019-09-22 19:18:47</td>
+</tr>
+<tr class="acc">
+<td>35</td>
+<td>1944491</td>
+<td>61088121</td>
+<td><a href="profile8730.html?Username=nbonner5">nbonner5</a></td>
+<td><a href="http://codeforces.com/problemset/problem/4/A" target="_blank">P4 - Watermelon</a></td>
+<td>Codeforces</td>
+<td>Accepted</td>
+<td>Python 3</td>
+<td>2019-09-22 19:16:49</td>
+</tr>
+<tr class="acc">
+<td>36</td>
+<td>1942782</td>
+<td>60817418</td>
+<td><a href="profile1d6f?Username=Vbuddies">Vbuddies</a></td>
+<td><a href="http://codeforces.com/problemset/problem/1/A" target="_blank">P13 - Theatre Square</a></td>
+<td>Codeforces</td>
+<td>Accepted</td>
+<td>Python 3</td>
+<td>2019-09-18 21:02:15</td>
+</tr>
+<tr class="acc">
+<td>37</td>
+<td>1942662</td>
+<td>60779889</td>
+<td><a href="profile1d6f?Username=Vbuddies">Vbuddies</a></td>
+<td><a href="http://codeforces.com/problemset/problem/50/A" target="_blank">P5 - Domino piling</a></td>
+<td>Codeforces</td>
+<td>Accepted</td>
+<td>Python 3</td>
+<td>2019-09-18 15:53:14</td>
+</tr>
+<tr class="acc">
+<td>38</td>
+<td>1942658</td>
+<td>60779549</td>
+<td><a href="profileeff8?Username=meicholtz">meicholtz</a></td>
+<td><a href="http://codeforces.com/problemset/problem/50/A" target="_blank">P5 - Domino piling</a></td>
+<td>Codeforces</td>
+<td>Accepted</td>
+<td>Python 3</td>
+<td>2019-09-18 15:45:53</td>
+</tr>
+<tr class="acc">
+<td>39</td>
+<td>1942655</td>
+<td>60779492</td>
+<td><a href="profileeff8?Username=meicholtz">meicholtz</a></td>
+<td><a href="http://codeforces.com/problemset/problem/4/A" target="_blank">P4 - Watermelon</a></td>
+<td>Codeforces</td>
+<td>Accepted</td>
+<td>Python 3</td>
+<td>2019-09-18 15:44:32</td>
+</tr>
+<tr class="acc">
+<td>40</td>
+<td>1942653</td>
+<td>60778950</td>
+<td><a href="profile4a47?Username=christopherhaynes33">christopherhaynes33</a></td>
+<td><a href="http://codeforces.com/problemset/problem/50/A" target="_blank">P5 - Domino piling</a></td>
+<td>Codeforces</td>
+<td>Accepted</td>
+<td>Python 3</td>
+<td>2019-09-18 15:31:50</td>
+</tr>
+<tr class="acc">
+<td>41</td>
+<td>1942649</td>
+<td>60778680</td>
+<td><a href="profile83b2.html?Username=Joggleston">Joggleston</a></td>
+<td><a href="http://codeforces.com/problemset/problem/50/A" target="_blank">P5 - Domino piling</a></td>
+<td>Codeforces</td>
+<td>Accepted</td>
+<td>Python 3</td>
+<td>2019-09-18 15:25:29</td>
+</tr>
+<tr class="acc">
+<td>42</td>
+<td>1942490</td>
+<td>60745308</td>
+<td><a href="profile1d6f?Username=Vbuddies">Vbuddies</a></td>
+<td><a href="http://codeforces.com/problemset/problem/4/A" target="_blank">P4 - Watermelon</a></td>
+<td>Codeforces</td>
+<td>Accepted</td>
+<td>Python 3</td>
+<td>2019-09-18 00:48:18</td>
+</tr>
+<tr class="odd">
+<td>43</td>
+<td>1942477</td>
+<td>60745084</td>
+<td><a href="profile1d6f?Username=Vbuddies">Vbuddies</a></td>
+<td><a href="http://codeforces.com/problemset/problem/4/A" target="_blank">P4 - Watermelon</a></td>
+<td>Codeforces</td>
+<td>WRONG_ANSWER</td>
+<td>Python 3</td>
+<td>2019-09-18 00:31:27</td>
+</tr>
+<tr>
+<td>44</td>
+<td>1942469</td>
+<td>60744679</td>
+<td><a href="profile1d6f?Username=Vbuddies">Vbuddies</a></td>
+<td><a href="http://codeforces.com/problemset/problem/4/A" target="_blank">P4 - Watermelon</a></td>
+<td>Codeforces</td>
+<td>WRONG_ANSWER</td>
+<td>Python 3</td>
+<td>2019-09-18 00:00:05</td>
+</tr>
+<tr class="acc">
+<td>45</td>
+<td>1940326</td>
+<td>60464081</td>
+<td><a href="profile68e9?Username=jmixon1100">jmixon1100</a></td>
+<td><a href="http://codeforces.com/problemset/problem/4/A" target="_blank">P4 - Watermelon</a></td>
+<td>Codeforces</td>
+<td>Accepted</td>
+<td>Python 3</td>
+<td>2019-09-12 23:17:56</td>
+</tr>
+<tr class="acc">
+<td>46</td>
+<td>1940317</td>
+<td>60463596</td>
+<td><a href="profile4c4e.html?Username=maxb00">maxb00</a></td>
+<td><a href="http://codeforces.com/problemset/problem/50/A" target="_blank">P5 - Domino piling</a></td>
+<td>Codeforces</td>
+<td>Accepted</td>
+<td>Python 3</td>
+<td>2019-09-12 22:44:45</td>
+</tr>
+<tr class="acc">
+<td>47</td>
+<td>1940299</td>
+<td>60463194</td>
+<td><a href="profile4c4e.html?Username=maxb00">maxb00</a></td>
+<td><a href="http://codeforces.com/problemset/problem/4/A" target="_blank">P4 - Watermelon</a></td>
+<td>Codeforces</td>
+<td>Accepted</td>
+<td>Python 3</td>
+<td>2019-09-12 22:21:23</td>
+</tr>
+<tr>
+<td>48</td>
+<td>1940297</td>
+<td>60463130</td>
+<td><a href="profile4c4e.html?Username=maxb00">maxb00</a></td>
+<td><a href="http://codeforces.com/problemset/problem/4/A" target="_blank">P4 - Watermelon</a></td>
+<td>Codeforces</td>
+<td>WRONG_ANSWER</td>
+<td>Python 3</td>
+<td>2019-09-12 22:17:58</td>
+</tr>
+<tr class="acc">
+<td>49</td>
+<td>1939736</td>
+<td>60410315</td>
+<td><a href="profile83b2.html?Username=Joggleston">Joggleston</a></td>
+<td><a href="http://codeforces.com/problemset/problem/4/A" target="_blank">P4 - Watermelon</a></td>
+<td>Codeforces</td>
+<td>Accepted</td>
+<td>Python 3</td>
+<td>2019-09-11 21:02:03</td>
+</tr>
+<tr class="acc">
+<td>50</td>
+<td>1939561</td>
+<td>60398859</td>
+<td><a href="profilee458?Username=Rwelk">Rwelk</a></td>
+<td><a href="http://codeforces.com/problemset/problem/1/A" target="_blank">P13 - Theatre Square</a></td>
+<td>Codeforces</td>
+<td>Accepted</td>
+<td>Python 3</td>
+<td>2019-09-11 15:55:30</td>
+</tr>
+<tr class="acc">
+<td>51</td>
+<td>1939555</td>
+<td>60398366</td>
+<td><a href="profilee458?Username=Rwelk">Rwelk</a></td>
+<td><a href="http://codeforces.com/problemset/problem/4/A" target="_blank">P4 - Watermelon</a></td>
+<td>Codeforces</td>
+<td>Accepted</td>
+<td>Python 3</td>
+<td>2019-09-11 15:46:37</td>
+</tr>
+<tr class="acc">
+<td>52</td>
+<td>1939553</td>
+<td>60398273</td>
+<td><a href="profilee458?Username=Rwelk">Rwelk</a></td>
+<td><a href="http://codeforces.com/problemset/problem/50/A" target="_blank">P5 - Domino piling</a></td>
+<td>Codeforces</td>
+<td>Accepted</td>
+<td>Java 8</td>
+<td>2019-09-11 15:44:42</td>
+</tr>
+
+
+</tbody>
+</table>
+
+
+
+</center>
+</font>
+</font>
+</div>
+</td>
+<td style="padding: 0px; vertical-align: top;">
+<div id="rightAd">
+
+
+</div>
+</td>
+</tr>
+</table>
+</center>
+<!-- end page -->
+<!-- start footer -->
+<div id="footer">
+<p id="legal">A2OJ &copy; Copyright 2010-2019 <b><a
+	href="https://www.facebook.com/ahmed.aly.tc" target="_blank"
+	style="text-decoration: none;">Ahmed Aly</a></b> All Rights Reserved. A2OJ uses <a href="http://sphere-engine.com/" target="_blank" style="text-decoration: none;">Sphere Engine</a>&trade; &copy; by <a href="http://sphere-research.com/" target="_blank" style="text-decoration: none;">Sphere Research Labs</a>.</p>
+</div>
+</td>
+
+
+</tr>
+</table>
+</center>
+<!-- end footer -->
+
+
+</body>
+
+<!-- Mirrored from a2oj.com/submissions?ID=40417 by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 15 Nov 2019 01:45:22 GMT -->
+</html>

@@ -1,0 +1,394 @@
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Mirrored from a2oj.com/p?ID=300 by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 15 Nov 2019 01:47:00 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=ISO-8859-1" /><!-- /Added by HTTrack -->
+<head>
+
+<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+
+
+
+
+<title>300. Particle Swapping - A2 Online Judge</title>
+
+<meta name="description" content="A2 Online Judge (or Virtual Online Contests) is an online judge with hundreds of problems and it helps you to create, run and participate in virtual contests using problems from the following online judges: A2 Online Judge, Live Archive, Codeforces, Timus, SPOJ, TJU, SGU, PKU, ZOJ, URI. It also helps you to manage and track your programming comepetions training for you and your friends. It helps for ICPC ACM and IOI training also.">
+<meta name="keywords" content="ahmed aly,ahmed aly tools,voc,virtual online contests,programming,c++,java,contest,contests,competition,competitions,programming contest,programming contests,programming compitition,programming compititions,cf,codeforces,live archive,uva,spoj,tju,sgu,pku,timus,zoj,uri,programming tools,a2oj,a2 online judge">
+<meta name="author" content="Ahmed Aly">
+<link href="default.css" rel="stylesheet" type="text/css" />
+<link href='DroidSansMono.css' rel='stylesheet' type='text/css'>
+
+		<link rel="stylesheet" href="css/nav.css" />
+		<!--[if IE]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+<!-- START TRACKING CODE -->
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push( [ '_setAccount', 'UA-16947566-3' ]);
+	_gaq.push( [ '_trackPageview' ]);
+
+	( function() {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+				: 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+<!-- END TRACKING CODE -->
+
+
+<script src="jquery-latest.js"></script>
+
+
+
+</head>
+<body class="no-js">
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "../connect.facebook.net/en_US/all.js#xfbml=1&appId=123446397673080";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+    	<script>
+			var el = document.getElementsByTagName("body")[0];
+			el.className = "";
+		</script>
+        <noscript>
+        	<!--[if IE]>
+            	<link rel="stylesheet" href="css/ie.css">
+            <![endif]-->
+        </noscript>
+        
+
+<center>
+<table width="100%">
+<tr>
+<td>
+        
+
+
+<div id="wrapper"><!-- start header -->
+
+<div id="logo">
+<table width="100%">
+<tr>
+<td style="vertical-align: bottom;"><a href="index.html"><img src="logo.png"></a></td>
+<td>
+<h1 style="padding-top: 11px;">A<sup>2</sup> Online Judge</h1>
+<h2 class="author">&raquo;&nbsp;&nbsp;&nbsp;&nbsp; by <a href="https://www.facebook.com/ahmed.aly.tc" target="_blank" style="text-decoration: none;">Ahmed Aly</a></h2>
+<br/>
+<h3>Sponsored by <b><a href="https://www.facebook.com/elcoachacademy/" target="_blank" style="text-decoration: none;">Coach Academy</a></b> & <b><a href="https://www.facebook.com/AfricaArabCPC/" target="_blank" style="text-decoration: none;">ACPC</a></b></h3>
+</td>
+<td style="text-align: right; padding-top: 27px;">
+<iframe src="https://www.facebook.com/plugins/like.php?show_faces=false&amp;href=https://www.facebook.com/A2OnlineJudge"
+	scrolling="no" frameborder="0"
+	style="border:none; height:45px"></iframe>
+</td>
+</tr>
+</table>
+</div>
+
+<div id="header3"><div align="right"><a href="signinbc8f?url=%2Fp%3FID%3D300" style="font-size: 15px;">Sign In</a> - <a href="signup.html" style="font-size: 15px;">Sign Up</a></div></div>
+
+
+<div id="header2">
+<div id="menu2">
+
+        <nav id="topNav">
+          <ul>
+<li><a href="index.html">Contests</a></li><li><a href="ladders.html"><font color="red">Ladders</font></a></li><li><a href="ps.html">Problems</a></li><li><a href="status.html">Status</a></li><li><a href="categories.html">Categories</a></li><li><a href="groups.html">Groups</a></li><li><a href="javascript:void();">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;More&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><ul><li><center><a href="addcode.html">Source Codes</a></center></li><li><center><a href="finder.html">Problems Finder</a></center></li><li><center><a href="users.html">Users</a></center></li><li><center><a href="teams.html">Teams</a></center></li><li><center><a href="cumulative.html">Cumulative Rank</a></center></li></ul></li><li class="last"><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+        
+        
+        <script src="js/modernizr.js"></script>
+		<script>
+			(function($){
+				
+				//cache nav
+				var nav = $("#topNav");
+				
+				//add indicator and hovers to submenu parents
+				nav.find("li").each(function() {
+					if ($(this).find("ul").length > 0) {
+						$("<span>").text("^").appendTo($(this).children(":first"));
+
+						//show subnav on hover
+						$(this).mouseenter(function() {
+							$(this).find("ul").stop(true, true).slideDown();
+						});
+						
+						//hide submenus on exit
+						$(this).mouseleave(function() {
+							$(this).find("ul").stop(true, true).slideUp();
+						});
+					}
+				});
+			})(jQuery);
+		</script>
+
+
+</div>
+</div>
+<!-- end header --></div>
+<!-- start page -->
+</td>
+</tr>
+
+
+<tr>
+
+<td style="vertical-align: top;">
+<center>
+<table>
+<tr style="max-height: 0px; padding: 0px;">
+<td style="max-height: 0px; padding: 0px; min-width: 165px;"></td>
+<td style="max-height: 0px; padding: 0px; min-width: 1060px;"></td>
+<td style="max-height: 0px; padding: 0px; min-width: 165px;"></td>
+</tr>
+<tr>
+<td style="padding: 0px; vertical-align: top;">
+<div id="leftAd">
+
+
+</div>
+</td>
+<td style="padding: 0px; vertical-align: top;">
+<div id="page">
+
+<font size="3">
+<center>
+
+
+
+
+
+</center>
+</font>
+
+<center>
+
+
+
+<div style="font-family: 'Droid Sans Mono', sans-serif; font-size: 20px; font-weight: bold;">
+<table>
+<tr style="background: #E0E0E0;">
+<td style="padding: 10px;"><a href="submit4c91?ID=300">Submit</a></td>
+
+<td style="padding: 10px;"><a href="statusf1e3?Sort=Time&amp;ID=300">Best Submissions</a></td>
+<td style="padding: 10px;"><a href="status4c91?ID=300">All Submissions</a></td>
+
+</tr>
+</table>
+
+<br />
+
+300. Particle Swapping
+
+</div>
+</center>
+<br/><br/>
+
+<div style="font-family: 'Droid Sans Mono', sans-serif; font-size: 19px; font-weight: bold; text-decoration: underline;">
+Problem Statement:
+</div>
+<div style="font-family: 'Droid Sans Mono', sans-serif; font-size: 17px;">
+The research team of prof. Feynmansson is preparing a new groundbreaking experiment in particle physics. On a special plate they have prepared a system consisting of a number of nodes connected via wires<sup>1</sup>. In the beginning of the experiment a pair of particles appears at two different nodes of the system: one normal particle of matter appears at some node A, and one corresponding particle of antimatter appears at some node B. The goal of the experiment is to swap these particles, i.e., to arrive at a state where the normal particle is at node B and the antiparticle is at node A. This state should be reached by a sequence of moves, where each move consists of transmitting one of the particles from its current location to a neighbouring node via a wire.<br/><br/>As you probably remember from popular science TV programmes, playing with matter and antimatter is usually not that safe. In particular, if particles of matter and antimatter get too close to each other, they will annihilate each other blowing up the whole experiment. Therefore, the research team would like to swap the locations of the particles in such a manner that the minimum Euclidean distance between them during the experiment is as large as possible. This minimum distance is called the safeness of the experiment. For simplicity, we assume that while a particle is transmitted via a wire we do not consider its location; in other words, the only risky moments during the experiment are when both particles are at some nodes. You may assume that it is always possible to swap the particles with positive safeness, that is, so that the particles are never placed at the same node during swapping. Another catch is that the physicists do not know precisely where the particles will appear. They have made a list of potential pairs of initial locations (A,B), and for each of them they would like to know the maximum possible safeness of swapping the particles. Help them in this task.
+
+</div>
+
+
+
+<br/><br/>
+<div style="font-family: 'Droid Sans Mono', sans-serif; font-size: 19px; font-weight: bold; text-decoration: underline;">
+Input Format:
+</div>
+<div style="font-family: 'Droid Sans Mono', sans-serif; font-size: 17px;">
+The first line of the input contains a single integer n (1 &le; n &le; 500), denoting the number of nodes in the system. Then follow n lines, each containing two integers x, y (-10 000  x, y  10 000); the numbers in the i-th line denote the coordinates on the plate of the i-th node. No two nodes are located at the same point. The next line of the input contains a single integer m (0 &le; m &le; 2000), denoting the number of wires in the system. Then follow m lines; each line contains a description of a wire as a pair of integers a, b (1 &le; a, b &le; n, a &ne; b), denoting the indices of the nodes that are connected by the wire. You may assume that no two nodes are connected by more than one wire, and no wire connects a node with itself. <br/>The next line of the input contains a single integer l (1 &le; l &le; nC<sub>2</sub>), denoting the length of the list of potential initial positions prepared by the physicists. Then follow ` lines, each containing two integers a, b (1 &le; a, b &le; n, a &ne; b), denoting the indices of the initial nodes A and B, respectively.
+
+</div>
+
+<br/><br/>
+<div style="font-family: 'Droid Sans Mono', sans-serif; font-size: 19px; font-weight: bold; text-decoration: underline;">
+Output Format:
+</div>
+<div style="font-family: 'Droid Sans Mono', sans-serif; font-size: 17px;">
+Output exactly ` lines. The i-th line of the output should contain a single floating point number, being the maximum possible safeness for the i-th pair of initial positions listed by the physicists. Absolute or relative errors of value at most 10<sup>-6</sup> will be tolerated.
+
+</div>
+
+<br/><br/>
+<div style="font-family: 'Droid Sans Mono', sans-serif;  font-size: 19px; font-weight: bold; text-decoration: underline;">
+Sample Input:
+</div>
+<div style="font-family: 'Droid Sans Mono', sans-serif; font-size: 17px; white-space: pre;">6
+0 0
+-1 3
+-1 0
+-1 -3
+3 0
+0 1
+6
+1 2
+2 3
+3 4
+4 1
+1 5
+5 6
+5
+6 5
+2 4
+2 6
+3 6
+4 6
+
+</div>
+
+<br/><br/>
+<div style="font-family: 'Droid Sans Mono', sans-serif;  font-size: 19px; font-weight: bold; text-decoration: underline;">
+Sample Output:
+</div>
+<div style="font-family: 'Droid Sans Mono', sans-serif; font-size: 17px; white-space: pre;">1.00000000
+3.16227766
+2.23606798
+1.41421356
+3.16227766
+
+</div>
+
+<br/><br/>
+<div style="font-family: 'Droid Sans Mono', sans-serif; font-size: 19px; font-weight: bold; text-decoration: underline;">
+Notes:
+</div>
+<div style="font-family: 'Droid Sans Mono', sans-serif; font-size: 17px;">
+<sup>1</sup>The wires may cross each other on the plate.
+</div>
+
+
+<br/><br/>
+
+<center>
+<div style="font-family: 'Droid Sans Mono', sans-serif; font-size: 20px; font-weight: bold;">
+<table>
+<tr style="background: #E0E0E0;">
+<td style="padding: 10px;"><a href="submit4c91?ID=300">Submit</a></td>
+
+<td style="padding: 10px;"><a href="statusf1e3?Sort=Time&amp;ID=300">Best Submissions</a></td>
+<td style="padding: 10px;"><a href="status4c91?ID=300">All Submissions</a></td>
+
+</tr>
+</table>
+</div>
+
+<br /><br /><br />
+
+<div class="fb-comments" data-href="https://a2oj.com/p?ID=300" data-width="800"></div>
+
+</center>
+
+<p style="border-bottom: 1px solid #5C5C5C;
+  padding-bottom: 6px;
+  margin-bottom: 1em;">
+</p>
+
+<center>
+<div style="font-family: 'Droid Sans Mono', sans-serif; font-size: 15px;">
+<table>
+<tr>
+<td style="padding-right: 15px; width: 126px;">
+Added by:
+</td>
+<td>
+<a href="profile546e.html?Username=hossamyosef">hossamyosef</a>
+</td>
+</tr>
+<tr>
+<td style="padding-right: 15px;">
+Added at:
+</td>
+<td>
+2014-10-21 17:00:00 UTC
+</td>
+</tr>
+<tr>
+<td style="padding-right: 15px;">
+Time Limit:
+</td>
+<td>
+3-10 second(s)
+
+</td>
+</tr>
+<tr>
+<td style="padding-right: 15px;">
+Partial score:
+</td>
+<td>
+No
+</td>
+</tr>
+
+<tr><td style="padding-right: 15px;">Source:</td><td><a href="source2f56.html?ID=23">Nordic Collegiate Programming Contest</a></td></tr>
+
+</table>
+</div>
+</center>
+
+</div>
+</td>
+<td style="padding: 0px; vertical-align: top;">
+<div id="rightAd">
+
+
+</div>
+</td>
+</tr>
+</table>
+</center>
+<!-- end page -->
+<!-- start footer -->
+<div id="footer">
+<p id="legal">A2OJ &copy; Copyright 2010-2019 <b><a
+	href="https://www.facebook.com/ahmed.aly.tc" target="_blank"
+	style="text-decoration: none;">Ahmed Aly</a></b> All Rights Reserved. A2OJ uses <a href="http://sphere-engine.com/" target="_blank" style="text-decoration: none;">Sphere Engine</a>&trade; &copy; by <a href="http://sphere-research.com/" target="_blank" style="text-decoration: none;">Sphere Research Labs</a>.</p>
+</div>
+</td>
+
+
+</tr>
+</table>
+</center>
+<!-- end footer -->
+
+
+</body>
+
+<!-- Mirrored from a2oj.com/p?ID=300 by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 15 Nov 2019 01:47:00 GMT -->
+</html>

@@ -1,0 +1,367 @@
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Mirrored from a2oj.com/p?ID=11 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 13 Nov 2019 08:45:02 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=ISO-8859-1" /><!-- /Added by HTTrack -->
+<head>
+
+<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+
+
+
+
+<title>11. Modified LCS - A2 Online Judge</title>
+
+<meta name="description" content="A2 Online Judge (or Virtual Online Contests) is an online judge with hundreds of problems and it helps you to create, run and participate in virtual contests using problems from the following online judges: A2 Online Judge, Live Archive, Codeforces, Timus, SPOJ, TJU, SGU, PKU, ZOJ, URI. It also helps you to manage and track your programming comepetions training for you and your friends. It helps for ICPC ACM and IOI training also.">
+<meta name="keywords" content="ahmed aly,ahmed aly tools,voc,virtual online contests,programming,c++,java,contest,contests,competition,competitions,programming contest,programming contests,programming compitition,programming compititions,cf,codeforces,live archive,uva,spoj,tju,sgu,pku,timus,zoj,uri,programming tools,a2oj,a2 online judge">
+<meta name="author" content="Ahmed Aly">
+<link href="default.css" rel="stylesheet" type="text/css" />
+<link href='DroidSansMono.css' rel='stylesheet' type='text/css'>
+
+		<link rel="stylesheet" href="css/nav.css" />
+		<!--[if IE]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+<!-- START TRACKING CODE -->
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push( [ '_setAccount', 'UA-16947566-3' ]);
+	_gaq.push( [ '_trackPageview' ]);
+
+	( function() {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+				: 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+<!-- END TRACKING CODE -->
+
+
+<script src="jquery-latest.js"></script>
+
+
+
+</head>
+<body class="no-js">
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "../connect.facebook.net/en_US/all.js#xfbml=1&appId=123446397673080";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+    	<script>
+			var el = document.getElementsByTagName("body")[0];
+			el.className = "";
+		</script>
+        <noscript>
+        	<!--[if IE]>
+            	<link rel="stylesheet" href="css/ie.css">
+            <![endif]-->
+        </noscript>
+        
+
+<center>
+<table width="100%">
+<tr>
+<td>
+        
+
+
+<div id="wrapper"><!-- start header -->
+
+<div id="logo">
+<table width="100%">
+<tr>
+<td style="vertical-align: bottom;"><a href="index.html"><img src="logo.png"></a></td>
+<td>
+<h1 style="padding-top: 11px;">A<sup>2</sup> Online Judge</h1>
+<h2 class="author">&raquo;&nbsp;&nbsp;&nbsp;&nbsp; by <a href="https://www.facebook.com/ahmed.aly.tc" target="_blank" style="text-decoration: none;">Ahmed Aly</a></h2>
+<br/>
+<h3>Sponsored by <b><a href="https://www.facebook.com/elcoachacademy/" target="_blank" style="text-decoration: none;">Coach Academy</a></b> & <b><a href="https://www.facebook.com/AfricaArabCPC/" target="_blank" style="text-decoration: none;">ACPC</a></b></h3>
+</td>
+<td style="text-align: right; padding-top: 27px;">
+<iframe src="https://www.facebook.com/plugins/like.php?show_faces=false&amp;href=https://www.facebook.com/A2OnlineJudge"
+	scrolling="no" frameborder="0"
+	style="border:none; height:45px"></iframe>
+</td>
+</tr>
+</table>
+</div>
+
+<div id="header3"><div align="right"><a href="signin97a6.html?url=%2Fp%3FID%3D11" style="font-size: 15px;">Sign In</a> - <a href="signup.html" style="font-size: 15px;">Sign Up</a></div></div>
+
+
+<div id="header2">
+<div id="menu2">
+
+        <nav id="topNav">
+          <ul>
+<li><a href="index.html">Contests</a></li><li><a href="ladders.html"><font color="red">Ladders</font></a></li><li><a href="ps.html">Problems</a></li><li><a href="status.html">Status</a></li><li><a href="categories.html">Categories</a></li><li><a href="groups.html">Groups</a></li><li><a href="javascript:void();">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;More&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><ul><li><center><a href="addcode.html">Source Codes</a></center></li><li><center><a href="finder.html">Problems Finder</a></center></li><li><center><a href="users.html">Users</a></center></li><li><center><a href="teams.html">Teams</a></center></li><li><center><a href="cumulative.html">Cumulative Rank</a></center></li></ul></li><li class="last"><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+        
+        
+        <script src="js/modernizr.js"></script>
+		<script>
+			(function($){
+				
+				//cache nav
+				var nav = $("#topNav");
+				
+				//add indicator and hovers to submenu parents
+				nav.find("li").each(function() {
+					if ($(this).find("ul").length > 0) {
+						$("<span>").text("^").appendTo($(this).children(":first"));
+
+						//show subnav on hover
+						$(this).mouseenter(function() {
+							$(this).find("ul").stop(true, true).slideDown();
+						});
+						
+						//hide submenus on exit
+						$(this).mouseleave(function() {
+							$(this).find("ul").stop(true, true).slideUp();
+						});
+					}
+				});
+			})(jQuery);
+		</script>
+
+
+</div>
+</div>
+<!-- end header --></div>
+<!-- start page -->
+</td>
+</tr>
+
+
+<tr>
+
+<td style="vertical-align: top;">
+<center>
+<table>
+<tr style="max-height: 0px; padding: 0px;">
+<td style="max-height: 0px; padding: 0px; min-width: 165px;"></td>
+<td style="max-height: 0px; padding: 0px; min-width: 1060px;"></td>
+<td style="max-height: 0px; padding: 0px; min-width: 165px;"></td>
+</tr>
+<tr>
+<td style="padding: 0px; vertical-align: top;">
+<div id="leftAd">
+
+
+</div>
+</td>
+<td style="padding: 0px; vertical-align: top;">
+<div id="page">
+
+<font size="3">
+<center>
+
+
+
+
+
+</center>
+</font>
+
+<center>
+
+
+
+<div style="font-family: 'Droid Sans Mono', sans-serif; font-size: 20px; font-weight: bold;">
+<table>
+<tr style="background: #E0E0E0;">
+<td style="padding: 10px;"><a href="signincb23.html?ID=11">Submit</a></td>
+
+<td style="padding: 10px;"><a href="status3cfc.html?Sort=Time&amp;ID=11">Best Submissions</a></td>
+<td style="padding: 10px;"><a href="status87ac.html?ID=11">All Submissions</a></td>
+
+</tr>
+</table>
+
+<br />
+
+11. Modified LCS
+
+</div>
+</center>
+<br/><br/>
+
+<div style="font-family: 'Droid Sans Mono', sans-serif; font-size: 19px; font-weight: bold; text-decoration: underline;">
+Problem Statement:
+</div>
+<div style="font-family: 'Droid Sans Mono', sans-serif; font-size: 17px;">
+LCS stands for longest common subsequence, and it is a well known problem. A sequence in this problem means a list of integers, and a sequence X is considered a subsequence of another sequence Y, when the sequence X can be obtained by deleting zero or more elements from the sequence Y without changing the order of the remaining elements.<br/><br/>In this problem you are given two sequences and your task is to find the length of the longest sequence which is a subsequence of both the given sequences.<br/><br/>You are not given the sequences themselves. For each sequence you are given three integers N, F and D, where N is the length of the sequence, F is the first element in the sequence. Each element except the first element is greater than the element before it by D.<br/><br/>For example N = 5, F = 3 and D = 4 represents the following sequence: [3, 7, 11, 15, 19].<br/><br/>There will be at least one integer which belongs to both sequences and it is not greater than 1,000,000.
+
+</div>
+
+
+
+<br/><br/>
+<div style="font-family: 'Droid Sans Mono', sans-serif; font-size: 19px; font-weight: bold; text-decoration: underline;">
+Input Format:
+</div>
+<div style="font-family: 'Droid Sans Mono', sans-serif; font-size: 17px;">
+Your program will be tested on one or more test cases. The first line of the input will be a single integer T, the number of test cases (1 &#8804; T &#8804; 100). Followed by the test cases, each test case is described in one line which contains 6 integers separated by a single space N1 F1 D1 N2 F2 D2 (1 &#8804; N1,N2 &#8804; 10<sup>18</sup>) and (1 &#8804; F1,D1,F2,D2 &#8804; 10<sup>9</sup>) representing the length of the first sequence, the first element in the first sequence, the incremental value of the first sequence, the length of the second sequence, the first element in the second sequence and the incremental value of the second sequence, respectively.
+
+</div>
+
+<br/><br/>
+<div style="font-family: 'Droid Sans Mono', sans-serif; font-size: 19px; font-weight: bold; text-decoration: underline;">
+Output Format:
+</div>
+<div style="font-family: 'Droid Sans Mono', sans-serif; font-size: 17px;">
+For each test case, print a single line which contains a single integer representing the length of the longest common subsequence between the given two sequences.
+
+</div>
+
+<br/><br/>
+<div style="font-family: 'Droid Sans Mono', sans-serif;  font-size: 19px; font-weight: bold; text-decoration: underline;">
+Sample Input:
+</div>
+<div style="font-family: 'Droid Sans Mono', sans-serif; font-size: 17px; white-space: pre;">3
+5 3 4 15 3 1
+10 2 2 7 3 3
+100 1 1 100 1 2
+</div>
+
+<br/><br/>
+<div style="font-family: 'Droid Sans Mono', sans-serif;  font-size: 19px; font-weight: bold; text-decoration: underline;">
+Sample Output:
+</div>
+<div style="font-family: 'Droid Sans Mono', sans-serif; font-size: 17px; white-space: pre;">4
+3
+50
+</div>
+
+
+
+<br/><br/>
+
+<center>
+<div style="font-family: 'Droid Sans Mono', sans-serif; font-size: 20px; font-weight: bold;">
+<table>
+<tr style="background: #E0E0E0;">
+<td style="padding: 10px;"><a href="signincb23.html?ID=11">Submit</a></td>
+
+<td style="padding: 10px;"><a href="status3cfc.html?Sort=Time&amp;ID=11">Best Submissions</a></td>
+<td style="padding: 10px;"><a href="status87ac.html?ID=11">All Submissions</a></td>
+
+</tr>
+</table>
+</div>
+
+<br /><br /><br />
+
+<div class="fb-comments" data-href="https://a2oj.com/p?ID=11" data-width="800"></div>
+
+</center>
+
+<p style="border-bottom: 1px solid #5C5C5C;
+  padding-bottom: 6px;
+  margin-bottom: 1em;">
+</p>
+
+<center>
+<div style="font-family: 'Droid Sans Mono', sans-serif; font-size: 15px;">
+<table>
+<tr>
+<td style="padding-right: 15px; width: 126px;">
+Added by:
+</td>
+<td>
+<a href="profile7865.html?Username=abdelkarim">abdelkarim</a>
+</td>
+</tr>
+<tr>
+<td style="padding-right: 15px;">
+Added at:
+</td>
+<td>
+2014-02-22 08:46:43 UTC
+</td>
+</tr>
+<tr>
+<td style="padding-right: 15px;">
+Time Limit:
+</td>
+<td>
+3 seconds
+
+</td>
+</tr>
+<tr>
+<td style="padding-right: 15px;">
+Partial score:
+</td>
+<td>
+No
+</td>
+</tr>
+
+<tr><td style="padding-right: 15px;">Source:</td><td><a href="sourcedfb4.html?ID=1">ACM Arab Collegiate Programming Contest 2013</a></td></tr>
+
+</table>
+</div>
+</center>
+
+</div>
+</td>
+<td style="padding: 0px; vertical-align: top;">
+<div id="rightAd">
+
+
+</div>
+</td>
+</tr>
+</table>
+</center>
+<!-- end page -->
+<!-- start footer -->
+<div id="footer">
+<p id="legal">A2OJ &copy; Copyright 2010-2019 <b><a
+	href="https://www.facebook.com/ahmed.aly.tc" target="_blank"
+	style="text-decoration: none;">Ahmed Aly</a></b> All Rights Reserved. A2OJ uses <a href="http://sphere-engine.com/" target="_blank" style="text-decoration: none;">Sphere Engine</a>&trade; &copy; by <a href="http://sphere-research.com/" target="_blank" style="text-decoration: none;">Sphere Research Labs</a>.</p>
+</div>
+</td>
+
+
+</tr>
+</table>
+</center>
+<!-- end footer -->
+
+
+</body>
+
+<!-- Mirrored from a2oj.com/p?ID=11 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 13 Nov 2019 08:45:17 GMT -->
+</html>

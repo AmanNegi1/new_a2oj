@@ -1,0 +1,367 @@
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Mirrored from a2oj.com/p?ID=188 by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 15 Nov 2019 01:46:51 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=ISO-8859-1" /><!-- /Added by HTTrack -->
+<head>
+
+<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+
+
+
+
+<title>188. One Move from Towers of Hanoi - A2 Online Judge</title>
+
+<meta name="description" content="A2 Online Judge (or Virtual Online Contests) is an online judge with hundreds of problems and it helps you to create, run and participate in virtual contests using problems from the following online judges: A2 Online Judge, Live Archive, Codeforces, Timus, SPOJ, TJU, SGU, PKU, ZOJ, URI. It also helps you to manage and track your programming comepetions training for you and your friends. It helps for ICPC ACM and IOI training also.">
+<meta name="keywords" content="ahmed aly,ahmed aly tools,voc,virtual online contests,programming,c++,java,contest,contests,competition,competitions,programming contest,programming contests,programming compitition,programming compititions,cf,codeforces,live archive,uva,spoj,tju,sgu,pku,timus,zoj,uri,programming tools,a2oj,a2 online judge">
+<meta name="author" content="Ahmed Aly">
+<link href="default.css" rel="stylesheet" type="text/css" />
+<link href='DroidSansMono.css' rel='stylesheet' type='text/css'>
+
+		<link rel="stylesheet" href="css/nav.css" />
+		<!--[if IE]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+<!-- START TRACKING CODE -->
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push( [ '_setAccount', 'UA-16947566-3' ]);
+	_gaq.push( [ '_trackPageview' ]);
+
+	( function() {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+				: 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+<!-- END TRACKING CODE -->
+
+
+<script src="jquery-latest.js"></script>
+
+
+
+</head>
+<body class="no-js">
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "../connect.facebook.net/en_US/all.js#xfbml=1&appId=123446397673080";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+    	<script>
+			var el = document.getElementsByTagName("body")[0];
+			el.className = "";
+		</script>
+        <noscript>
+        	<!--[if IE]>
+            	<link rel="stylesheet" href="css/ie.css">
+            <![endif]-->
+        </noscript>
+        
+
+<center>
+<table width="100%">
+<tr>
+<td>
+        
+
+
+<div id="wrapper"><!-- start header -->
+
+<div id="logo">
+<table width="100%">
+<tr>
+<td style="vertical-align: bottom;"><a href="index.html"><img src="logo.png"></a></td>
+<td>
+<h1 style="padding-top: 11px;">A<sup>2</sup> Online Judge</h1>
+<h2 class="author">&raquo;&nbsp;&nbsp;&nbsp;&nbsp; by <a href="https://www.facebook.com/ahmed.aly.tc" target="_blank" style="text-decoration: none;">Ahmed Aly</a></h2>
+<br/>
+<h3>Sponsored by <b><a href="https://www.facebook.com/elcoachacademy/" target="_blank" style="text-decoration: none;">Coach Academy</a></b> & <b><a href="https://www.facebook.com/AfricaArabCPC/" target="_blank" style="text-decoration: none;">ACPC</a></b></h3>
+</td>
+<td style="text-align: right; padding-top: 27px;">
+<iframe src="https://www.facebook.com/plugins/like.php?show_faces=false&amp;href=https://www.facebook.com/A2OnlineJudge"
+	scrolling="no" frameborder="0"
+	style="border:none; height:45px"></iframe>
+</td>
+</tr>
+</table>
+</div>
+
+<div id="header3"><div align="right"><a href="signinc331?url=%2Fp%3FID%3D188" style="font-size: 15px;">Sign In</a> - <a href="signup.html" style="font-size: 15px;">Sign Up</a></div></div>
+
+
+<div id="header2">
+<div id="menu2">
+
+        <nav id="topNav">
+          <ul>
+<li><a href="index.html">Contests</a></li><li><a href="ladders.html"><font color="red">Ladders</font></a></li><li><a href="ps.html">Problems</a></li><li><a href="status.html">Status</a></li><li><a href="categories.html">Categories</a></li><li><a href="groups.html">Groups</a></li><li><a href="javascript:void();">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;More&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><ul><li><center><a href="addcode.html">Source Codes</a></center></li><li><center><a href="finder.html">Problems Finder</a></center></li><li><center><a href="users.html">Users</a></center></li><li><center><a href="teams.html">Teams</a></center></li><li><center><a href="cumulative.html">Cumulative Rank</a></center></li></ul></li><li class="last"><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+        
+        
+        <script src="js/modernizr.js"></script>
+		<script>
+			(function($){
+				
+				//cache nav
+				var nav = $("#topNav");
+				
+				//add indicator and hovers to submenu parents
+				nav.find("li").each(function() {
+					if ($(this).find("ul").length > 0) {
+						$("<span>").text("^").appendTo($(this).children(":first"));
+
+						//show subnav on hover
+						$(this).mouseenter(function() {
+							$(this).find("ul").stop(true, true).slideDown();
+						});
+						
+						//hide submenus on exit
+						$(this).mouseleave(function() {
+							$(this).find("ul").stop(true, true).slideUp();
+						});
+					}
+				});
+			})(jQuery);
+		</script>
+
+
+</div>
+</div>
+<!-- end header --></div>
+<!-- start page -->
+</td>
+</tr>
+
+
+<tr>
+
+<td style="vertical-align: top;">
+<center>
+<table>
+<tr style="max-height: 0px; padding: 0px;">
+<td style="max-height: 0px; padding: 0px; min-width: 165px;"></td>
+<td style="max-height: 0px; padding: 0px; min-width: 1060px;"></td>
+<td style="max-height: 0px; padding: 0px; min-width: 165px;"></td>
+</tr>
+<tr>
+<td style="padding: 0px; vertical-align: top;">
+<div id="leftAd">
+
+
+</div>
+</td>
+<td style="padding: 0px; vertical-align: top;">
+<div id="page">
+
+<font size="3">
+<center>
+
+
+
+
+
+</center>
+</font>
+
+<center>
+
+
+
+<div style="font-family: 'Droid Sans Mono', sans-serif; font-size: 20px; font-weight: bold;">
+<table>
+<tr style="background: #E0E0E0;">
+<td style="padding: 10px;"><a href="submiteebb?ID=188">Submit</a></td>
+
+<td style="padding: 10px;"><a href="status41df?Sort=Time&amp;ID=188">Best Submissions</a></td>
+<td style="padding: 10px;"><a href="statuseebb?ID=188">All Submissions</a></td>
+
+</tr>
+</table>
+
+<br />
+
+188. One Move from Towers of Hanoi
+
+</div>
+</center>
+<br/><br/>
+
+<div style="font-family: 'Droid Sans Mono', sans-serif; font-size: 19px; font-weight: bold; text-decoration: underline;">
+Problem Statement:
+</div>
+<div style="font-family: 'Droid Sans Mono', sans-serif; font-size: 17px;">
+For this problem, we are concerned with the classic problem of Towers of Hanoi. In this problem there are three posts and a collection of circular disks. Let's call the number of disks n. The disks are of different sizes, with no two having the same radius, and the one main rule is to never put a bigger disk on top of a smaller one.<br/><br/>We will number the disks from 1 (smallest) to n (biggest) and name the posts A, B, and C. If all the disks start on post A, and the goal is to move the disks to post C by moving one at a time, again, never putting a bigger one on top of a smaller one, there is a well-known solution that recursively calls for moving n-1 disks from A to B, then directly moves the bottom disk from A to C, then recursively calls for moving the n-1 disks from B to C.<br/><br/>Pseudocode for a recursive solution to classic Towers of Hanoi problem:<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;move(num_disks, from_post, spare_post, to_post)<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (num_disks == 0)<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;move(num_disks - 1, from_post, to_post, spare_post)<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print (&quot;Move disk &quot;, num_disks, &quot; from &quot;,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;from_post, &quot; to &quot;, to_post)<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;move(num_disks - 1, spare_post, from_post, to_post)<br/><br/>The problem at hand is determining the kth move made by the above algorithm for a given k and n.
+
+</div>
+
+
+
+<br/><br/>
+<div style="font-family: 'Droid Sans Mono', sans-serif; font-size: 19px; font-weight: bold; text-decoration: underline;">
+Input Format:
+</div>
+<div style="font-family: 'Droid Sans Mono', sans-serif; font-size: 17px;">
+Input will be two integers per line, k and n. End of file will be signified by a line with two zeros. All input will be valid, k and n will be positive integers with k less than 2<sup>n</sup> so that there is a kth move, and n will be at most 60 so that the answer will fit in a 64-bit integer type.
+
+</div>
+
+<br/><br/>
+<div style="font-family: 'Droid Sans Mono', sans-serif; font-size: 19px; font-weight: bold; text-decoration: underline;">
+Output Format:
+</div>
+<div style="font-family: 'Droid Sans Mono', sans-serif; font-size: 17px;">
+Output the requested kth move made by the above algorithm. Follow this format exactly: &quot;Case&quot;, one space, the case number, a colon and one space, and the answer for that case given as the number of the disk, the name of the from_post, and the name of the to_post with one space separating the parts of the answer. Do not print any trailing spaces.
+
+</div>
+
+<br/><br/>
+<div style="font-family: 'Droid Sans Mono', sans-serif;  font-size: 19px; font-weight: bold; text-decoration: underline;">
+Sample Input:
+</div>
+<div style="font-family: 'Droid Sans Mono', sans-serif; font-size: 17px; white-space: pre;">1 3
+5 3
+8 4
+0 0
+</div>
+
+<br/><br/>
+<div style="font-family: 'Droid Sans Mono', sans-serif;  font-size: 19px; font-weight: bold; text-decoration: underline;">
+Sample Output:
+</div>
+<div style="font-family: 'Droid Sans Mono', sans-serif; font-size: 17px; white-space: pre;">Case 1: 1 A C
+Case 2: 1 B A
+Case 3: 4 A C
+</div>
+
+
+
+<br/><br/>
+
+<center>
+<div style="font-family: 'Droid Sans Mono', sans-serif; font-size: 20px; font-weight: bold;">
+<table>
+<tr style="background: #E0E0E0;">
+<td style="padding: 10px;"><a href="submiteebb?ID=188">Submit</a></td>
+
+<td style="padding: 10px;"><a href="status41df?Sort=Time&amp;ID=188">Best Submissions</a></td>
+<td style="padding: 10px;"><a href="statuseebb?ID=188">All Submissions</a></td>
+
+</tr>
+</table>
+</div>
+
+<br /><br /><br />
+
+<div class="fb-comments" data-href="https://a2oj.com/p?ID=188" data-width="800"></div>
+
+</center>
+
+<p style="border-bottom: 1px solid #5C5C5C;
+  padding-bottom: 6px;
+  margin-bottom: 1em;">
+</p>
+
+<center>
+<div style="font-family: 'Droid Sans Mono', sans-serif; font-size: 15px;">
+<table>
+<tr>
+<td style="padding-right: 15px; width: 126px;">
+Added by:
+</td>
+<td>
+<a href="profile2bde.html?Username=feras_kassar">feras_kassar</a>
+</td>
+</tr>
+<tr>
+<td style="padding-right: 15px;">
+Added at:
+</td>
+<td>
+2014-08-06 07:00:05 UTC
+</td>
+</tr>
+<tr>
+<td style="padding-right: 15px;">
+Time Limit:
+</td>
+<td>
+3 seconds
+
+</td>
+</tr>
+<tr>
+<td style="padding-right: 15px;">
+Partial score:
+</td>
+<td>
+No
+</td>
+</tr>
+
+
+
+</table>
+</div>
+</center>
+
+</div>
+</td>
+<td style="padding: 0px; vertical-align: top;">
+<div id="rightAd">
+
+
+</div>
+</td>
+</tr>
+</table>
+</center>
+<!-- end page -->
+<!-- start footer -->
+<div id="footer">
+<p id="legal">A2OJ &copy; Copyright 2010-2019 <b><a
+	href="https://www.facebook.com/ahmed.aly.tc" target="_blank"
+	style="text-decoration: none;">Ahmed Aly</a></b> All Rights Reserved. A2OJ uses <a href="http://sphere-engine.com/" target="_blank" style="text-decoration: none;">Sphere Engine</a>&trade; &copy; by <a href="http://sphere-research.com/" target="_blank" style="text-decoration: none;">Sphere Research Labs</a>.</p>
+</div>
+</td>
+
+
+</tr>
+</table>
+</center>
+<!-- end footer -->
+
+
+</body>
+
+<!-- Mirrored from a2oj.com/p?ID=188 by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 15 Nov 2019 01:46:51 GMT -->
+</html>

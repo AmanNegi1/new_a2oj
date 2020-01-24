@@ -1,0 +1,382 @@
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Mirrored from a2oj.com/p?ID=183 by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 15 Nov 2019 01:46:49 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=ISO-8859-1" /><!-- /Added by HTTrack -->
+<head>
+
+<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+
+
+
+
+<title>183. Bowling Score Assistant - A2 Online Judge</title>
+
+<meta name="description" content="A2 Online Judge (or Virtual Online Contests) is an online judge with hundreds of problems and it helps you to create, run and participate in virtual contests using problems from the following online judges: A2 Online Judge, Live Archive, Codeforces, Timus, SPOJ, TJU, SGU, PKU, ZOJ, URI. It also helps you to manage and track your programming comepetions training for you and your friends. It helps for ICPC ACM and IOI training also.">
+<meta name="keywords" content="ahmed aly,ahmed aly tools,voc,virtual online contests,programming,c++,java,contest,contests,competition,competitions,programming contest,programming contests,programming compitition,programming compititions,cf,codeforces,live archive,uva,spoj,tju,sgu,pku,timus,zoj,uri,programming tools,a2oj,a2 online judge">
+<meta name="author" content="Ahmed Aly">
+<link href="default.css" rel="stylesheet" type="text/css" />
+<link href='DroidSansMono.css' rel='stylesheet' type='text/css'>
+
+		<link rel="stylesheet" href="css/nav.css" />
+		<!--[if IE]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+<!-- START TRACKING CODE -->
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push( [ '_setAccount', 'UA-16947566-3' ]);
+	_gaq.push( [ '_trackPageview' ]);
+
+	( function() {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+				: 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+<!-- END TRACKING CODE -->
+
+
+<script src="jquery-latest.js"></script>
+
+
+
+</head>
+<body class="no-js">
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "../connect.facebook.net/en_US/all.js#xfbml=1&appId=123446397673080";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+    	<script>
+			var el = document.getElementsByTagName("body")[0];
+			el.className = "";
+		</script>
+        <noscript>
+        	<!--[if IE]>
+            	<link rel="stylesheet" href="css/ie.css">
+            <![endif]-->
+        </noscript>
+        
+
+<center>
+<table width="100%">
+<tr>
+<td>
+        
+
+
+<div id="wrapper"><!-- start header -->
+
+<div id="logo">
+<table width="100%">
+<tr>
+<td style="vertical-align: bottom;"><a href="index.html"><img src="logo.png"></a></td>
+<td>
+<h1 style="padding-top: 11px;">A<sup>2</sup> Online Judge</h1>
+<h2 class="author">&raquo;&nbsp;&nbsp;&nbsp;&nbsp; by <a href="https://www.facebook.com/ahmed.aly.tc" target="_blank" style="text-decoration: none;">Ahmed Aly</a></h2>
+<br/>
+<h3>Sponsored by <b><a href="https://www.facebook.com/elcoachacademy/" target="_blank" style="text-decoration: none;">Coach Academy</a></b> & <b><a href="https://www.facebook.com/AfricaArabCPC/" target="_blank" style="text-decoration: none;">ACPC</a></b></h3>
+</td>
+<td style="text-align: right; padding-top: 27px;">
+<iframe src="https://www.facebook.com/plugins/like.php?show_faces=false&amp;href=https://www.facebook.com/A2OnlineJudge"
+	scrolling="no" frameborder="0"
+	style="border:none; height:45px"></iframe>
+</td>
+</tr>
+</table>
+</div>
+
+<div id="header3"><div align="right"><a href="signin5963?url=%2Fp%3FID%3D183" style="font-size: 15px;">Sign In</a> - <a href="signup.html" style="font-size: 15px;">Sign Up</a></div></div>
+
+
+<div id="header2">
+<div id="menu2">
+
+        <nav id="topNav">
+          <ul>
+<li><a href="index.html">Contests</a></li><li><a href="ladders.html"><font color="red">Ladders</font></a></li><li><a href="ps.html">Problems</a></li><li><a href="status.html">Status</a></li><li><a href="categories.html">Categories</a></li><li><a href="groups.html">Groups</a></li><li><a href="javascript:void();">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;More&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><ul><li><center><a href="addcode.html">Source Codes</a></center></li><li><center><a href="finder.html">Problems Finder</a></center></li><li><center><a href="users.html">Users</a></center></li><li><center><a href="teams.html">Teams</a></center></li><li><center><a href="cumulative.html">Cumulative Rank</a></center></li></ul></li><li class="last"><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+        
+        
+        <script src="js/modernizr.js"></script>
+		<script>
+			(function($){
+				
+				//cache nav
+				var nav = $("#topNav");
+				
+				//add indicator and hovers to submenu parents
+				nav.find("li").each(function() {
+					if ($(this).find("ul").length > 0) {
+						$("<span>").text("^").appendTo($(this).children(":first"));
+
+						//show subnav on hover
+						$(this).mouseenter(function() {
+							$(this).find("ul").stop(true, true).slideDown();
+						});
+						
+						//hide submenus on exit
+						$(this).mouseleave(function() {
+							$(this).find("ul").stop(true, true).slideUp();
+						});
+					}
+				});
+			})(jQuery);
+		</script>
+
+
+</div>
+</div>
+<!-- end header --></div>
+<!-- start page -->
+</td>
+</tr>
+
+
+<tr>
+
+<td style="vertical-align: top;">
+<center>
+<table>
+<tr style="max-height: 0px; padding: 0px;">
+<td style="max-height: 0px; padding: 0px; min-width: 165px;"></td>
+<td style="max-height: 0px; padding: 0px; min-width: 1060px;"></td>
+<td style="max-height: 0px; padding: 0px; min-width: 165px;"></td>
+</tr>
+<tr>
+<td style="padding: 0px; vertical-align: top;">
+<div id="leftAd">
+
+
+</div>
+</td>
+<td style="padding: 0px; vertical-align: top;">
+<div id="page">
+
+<font size="3">
+<center>
+
+
+
+
+
+</center>
+</font>
+
+<center>
+
+
+
+<div style="font-family: 'Droid Sans Mono', sans-serif; font-size: 20px; font-weight: bold;">
+<table>
+<tr style="background: #E0E0E0;">
+<td style="padding: 10px;"><a href="submit56c3?ID=183">Submit</a></td>
+
+<td style="padding: 10px;"><a href="status55ff?Sort=Time&amp;ID=183">Best Submissions</a></td>
+<td style="padding: 10px;"><a href="status56c3?ID=183">All Submissions</a></td>
+
+</tr>
+</table>
+
+<br />
+
+183. Bowling Score Assistant
+
+</div>
+</center>
+<br/><br/>
+
+<div style="font-family: 'Droid Sans Mono', sans-serif; font-size: 19px; font-weight: bold; text-decoration: underline;">
+Problem Statement:
+</div>
+<div style="font-family: 'Droid Sans Mono', sans-serif; font-size: 17px;">
+Bowling is a very popular sport in the U.S.. But projecting frames needed for winning a game is a bit painful for non-ACMers, so you are tasked with writing a program to compute this for them.<br/><br/>For anyone who has not bowled or has forgotten how the score is computed, there is a description of how to total a bowling score on the next couple pages, following the sample input and output. The main idea is that in order to win, you must get a higher score than your competitor.<br/><br/>Given your opponent's final score and the number of pins you knocked down on each ball through the eighth frame, you are to compute what you need to win (if it is even possible). If you can't possibly win, print &quot;impossible&quot;, otherwise print the sequence of rolls that will allow you to win that is first in lexicographical order. That is, the one with the lowest first roll, lowest second roll given the first roll, lowest third roll given the first two, etc..
+
+</div>
+
+
+
+<br/><br/>
+<div style="font-family: 'Droid Sans Mono', sans-serif; font-size: 19px; font-weight: bold; text-decoration: underline;">
+Input Format:
+</div>
+<div style="font-family: 'Droid Sans Mono', sans-serif; font-size: 17px;">
+Input for this problem will be a series of test cases. Each case will consist of your opponent's final score followed by the number of pins knocked down with each roll of the ball for your first eight frames. End-of-input will be indicated by a negative number. All other values on the file will be valid game pin counts. Your opponent's score will be an integer from 0 to 300, and the numbers of pins knocked down on your rolls will all be nonnegative integers less than or equal to 10 (the 10 being the number of pins standing at the start of each frame). The sample input below is neatly formatted only to make it clear how it matches the examples that follow. You will need to process the input carefully in order to determine where one test case ends and the next begins, because you can not assume any format in terms of spacing and line breaks in the actual input file!
+
+</div>
+
+<br/><br/>
+<div style="font-family: 'Droid Sans Mono', sans-serif; font-size: 19px; font-weight: bold; text-decoration: underline;">
+Output Format:
+</div>
+<div style="font-family: 'Droid Sans Mono', sans-serif; font-size: 17px;">
+For each input case, print the rolls needed to win the game. Follow this format exactly: &quot;Case&quot;, one space, the case number, a colon and one space, and the answer for that case given as either &quot;impossible&quot; or the required numbers of pins, with exactly one space between each pair of numbers and no trailing spaces.
+
+</div>
+
+<br/><br/>
+<div style="font-family: 'Droid Sans Mono', sans-serif;  font-size: 19px; font-weight: bold; text-decoration: underline;">
+Sample Input:
+</div>
+<div style="font-family: 'Droid Sans Mono', sans-serif; font-size: 17px; white-space: pre;">80
+4 3 6 2 4 2
+8 1 4 5 6 2
+7 2 9 0
+215
+4 6 6 2 4 2
+8 1 10 6 2
+7 2 9 0
+299
+10 10 10 10
+10 10 10 10
+-1
+</div>
+
+<br/><br/>
+<div style="font-family: 'Droid Sans Mono', sans-serif;  font-size: 19px; font-weight: bold; text-decoration: underline;">
+Sample Output:
+</div>
+<div style="font-family: 'Droid Sans Mono', sans-serif; font-size: 17px; white-space: pre;">Case 1: 0 0 0 10 6
+Case 2: impossible
+Case 3: 10 10 10 10
+</div>
+
+<br/><br/>
+<div style="font-family: 'Droid Sans Mono', sans-serif; font-size: 19px; font-weight: bold; text-decoration: underline;">
+Notes:
+</div>
+<div style="font-family: 'Droid Sans Mono', sans-serif; font-size: 17px;">
+<b>How to keep score in bowling:</b><br/><br/>There are ten pins that you attempt to knock down by rolling a ball at them.<br/><br/>For each set of ten pins, if you do not knock them all down with your first ball, you get a second try.<br/><br/>The one or two balls you roll at the set of ten pins is called a &quot;frame,&quot; and there are ten frames in a game.<br/><br/>If you knock all the pins down with your first roll, that is called a &quot;strike.&quot; If you knock all the pins down, but it takes both rolls, that is called a &quot;spare.&quot;<br/><br/>The score is computed as the sum of the pins you knock down, but there are bonuses for spares and strikes which are computed as described below. If you never get a spare or a strike, your score is simply the total of your twenty rolls.<br/><br/>If you get a strike, you double count the score of the next two rolls. If you get a spare, you double count the next one roll.<br/><br/>The tenth frame is special in that the &quot;next&quot; roll(s) would not normally exist for a strike or a spare in the tenth frame. If you get a spare in the tenth frame, you get one more roll at a fresh set of ten pins which is simply added to the 10 for your spare. If you get a strike in the tenth frame, you get two more rolls. If the first of these is also a strike, you get your second roll at another fresh set of ten pins. Note, however, that you don't go forever if you keep getting strikes. You only get the two rolls after the first strike in the tenth frame, and they are simply added to the 10 for the first strike, making a maximum score of 30 for the tenth frame (and for any other frame).<br/><br/>Thus, you can have three rolls in the tenth frame, so the maximum number of rolls in a game is 2 * 9 + 3 = 21. The minimum number of rolls occurs if you get a strike for each of the first nine frames, but then do not get a strike or a spare in the tenth. This results in 9 + 2 = 11 rolls.<br/><br/><b>Examples:</b><br/>We give the number of pins knocked down for each roll for ten frames and then compute the score.<br/>Example 1:<br/><center><br/><img src="i3c3b4?n=183_table1.PNG"/><br/></center><br/>Since there are no spares or strikes, the score is simply the sum of all these numbers which is 79.<br/>Example 2:<br/><center><br/><img src="i3759c?n=183_table2.PNG"/><br/></center><br/>This is similar to example 1, but there is a spare in frame 1 and a strike in frame 5. Note that we have a total of 10 in frame 1 before double counting the 6 (first roll) in frame 3. Also, because of the strike in frame 5, we double count the two rolls in frame 6. The final score is 97.<br/>Example 3:<br/><center><br/><img src="i3dca6?n=183_table3.PNG"/><br/></center><br/>This is similar to example 2, but there is a strike in frame 6. Note that we have added two more pins being knocked down, so the base score is 85, instead of 83 as in example 2. As before, we double count the first roll in frame 2, which gives us 91. Next, we double count the two rolls after the strike in frame 5 which are 10 and 7. This gives us 108. Finally we double count the two rolls in frame 7, which gives us 117.<br/>Example 4:<br/><center><br/><img src="i3644d?n=183_table4.PNG"/><br/></center><br/>This is similar to example 3, but there is a spare in frame 10. The extra pin on the second roll in the tenth frame would boost the score to 118 (same computations as in example 3), but we get to add the 7 on the last roll to the spare, so the total is 125.<br/>Example 5 (maximum score, a &quot;perfect game&quot;):<br/><center><br/><img src="i3a333?n=183_table52.PNG"/><br/></center><br/>The total score for each frame is 30 since we get the 10 for the strike and the next two rolls which are both 10.<br/>This gives us the maximum score of 300.
+</div>
+
+
+<br/><br/>
+
+<center>
+<div style="font-family: 'Droid Sans Mono', sans-serif; font-size: 20px; font-weight: bold;">
+<table>
+<tr style="background: #E0E0E0;">
+<td style="padding: 10px;"><a href="submit56c3?ID=183">Submit</a></td>
+
+<td style="padding: 10px;"><a href="status55ff?Sort=Time&amp;ID=183">Best Submissions</a></td>
+<td style="padding: 10px;"><a href="status56c3?ID=183">All Submissions</a></td>
+
+</tr>
+</table>
+</div>
+
+<br /><br /><br />
+
+<div class="fb-comments" data-href="https://a2oj.com/p?ID=183" data-width="800"></div>
+
+</center>
+
+<p style="border-bottom: 1px solid #5C5C5C;
+  padding-bottom: 6px;
+  margin-bottom: 1em;">
+</p>
+
+<center>
+<div style="font-family: 'Droid Sans Mono', sans-serif; font-size: 15px;">
+<table>
+<tr>
+<td style="padding-right: 15px; width: 126px;">
+Added by:
+</td>
+<td>
+<a href="profile2bde.html?Username=feras_kassar">feras_kassar</a>
+</td>
+</tr>
+<tr>
+<td style="padding-right: 15px;">
+Added at:
+</td>
+<td>
+2014-07-26 09:00:04 UTC
+</td>
+</tr>
+<tr>
+<td style="padding-right: 15px;">
+Time Limit:
+</td>
+<td>
+3 seconds
+
+</td>
+</tr>
+<tr>
+<td style="padding-right: 15px;">
+Partial score:
+</td>
+<td>
+No
+</td>
+</tr>
+
+
+
+</table>
+</div>
+</center>
+
+</div>
+</td>
+<td style="padding: 0px; vertical-align: top;">
+<div id="rightAd">
+
+
+</div>
+</td>
+</tr>
+</table>
+</center>
+<!-- end page -->
+<!-- start footer -->
+<div id="footer">
+<p id="legal">A2OJ &copy; Copyright 2010-2019 <b><a
+	href="https://www.facebook.com/ahmed.aly.tc" target="_blank"
+	style="text-decoration: none;">Ahmed Aly</a></b> All Rights Reserved. A2OJ uses <a href="http://sphere-engine.com/" target="_blank" style="text-decoration: none;">Sphere Engine</a>&trade; &copy; by <a href="http://sphere-research.com/" target="_blank" style="text-decoration: none;">Sphere Research Labs</a>.</p>
+</div>
+</td>
+
+
+</tr>
+</table>
+</center>
+<!-- end footer -->
+
+
+</body>
+
+<!-- Mirrored from a2oj.com/p?ID=183 by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 15 Nov 2019 01:46:50 GMT -->
+</html>
